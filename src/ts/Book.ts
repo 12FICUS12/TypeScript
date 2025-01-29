@@ -6,8 +6,8 @@ export default class Book implements Buyable {
   readonly author: string;
   readonly price: number;
   readonly pages: number;
-  readonly count: false;
-  readonly amount: number;
+  readonly count: boolean = false;
+  readonly amount: number = 1 
 
   constructor(
     id: number,

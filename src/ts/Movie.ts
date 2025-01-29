@@ -11,9 +11,8 @@ export default class Movie implements Buyable {
   readonly timing: number;
   readonly price: number;
   readonly img: string;
-  readonly count: boolean;
-  readonly amount: number;
-
+  readonly count: boolean = false;
+  readonly amount: number = 1 
   constructor(
     id: number,
     name: string,
